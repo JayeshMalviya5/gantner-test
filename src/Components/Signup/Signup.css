@@ -1,0 +1,40 @@
+.Scontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.SloginContainer{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(148, 148, 233);
+    width: 40%;
+    height: 50vh;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Slogin{
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.SloginButton{
+    margin-top: 30px;
+    width: 20%;
+}
+
+.SuserName{
+    margin-bottom: 5px;
+}
+
+.Sinput input{
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,29 @@
+.landingContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.chooseColor input{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.chooseColor button{
+    height: 30px;
+    width: 80px;
+}
+
+.showColor{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    gap: "10px";
+}
+
+.changeBTN{
+    margin-bottom: 10px;
+}
